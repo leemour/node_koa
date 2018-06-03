@@ -1,0 +1,16 @@
+{
+  "name": "node_koa",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/leemour/node_koa",
+  "author": "Viacheslav Ptsarev",
+  "license": "MIT",
+  "scripts": {
+    "start": "NODE_PATH=$NODE_PATH:./01 nodemon index.js"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-plugin-react": "^7.8.2",
+    "nodemon": "^1.17.5"
+  }
+}
